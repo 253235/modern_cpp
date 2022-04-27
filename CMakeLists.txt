@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(modern_cpp)
 
 set(SRC_LIST
+    Color.cpp
+    Fibonacci.cpp
     Circle.cpp
     Rectangle.cpp
     Square.cpp
