@@ -6,11 +6,7 @@ Circle::Circle(double r)
     : r_(r)
 {}
 
-Circle::Circle(const Circle & other)
-{
-    r_ = other.getRadius();
-}
-
+Circle::Circle(const Circle & other) = default;
 double Circle::getArea() const
 {
     return M_PI * r_ * r_;
