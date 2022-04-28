@@ -7,7 +7,7 @@
 #include "Rectangle.hpp"
 #include "Square.hpp"
 #include "Circle.hpp"
-#include "Fibonacci.hpp"
+#include "Fibonacci.cpp"
 
 using namespace std;
 
